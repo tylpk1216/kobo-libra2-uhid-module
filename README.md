@@ -1,2 +1,4 @@
 # kobo-libra2-uhid-module
-Insert this module to support some bluetooth pageturners.
+
+My Logitech R500 can't work on Kobo Libra 2 so I try to check the problem. Finally, I rebuild the uhid.ko and it works with R500.
+
