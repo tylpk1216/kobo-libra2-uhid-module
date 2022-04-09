@@ -4,9 +4,10 @@ My Logitech R500 can't work on Kobo Libra 2 so I try to check the problem. Final
 
 # How to use it
 
-1. Install NickelMenu to launch it.
-2. Copy "kobo-libra2-uhid-module" foler to ".adds".
-3. Copy "kobo-libra2-uhid-module/config" to ".adds/nm" or you could add the text below to your own config if you already use NickelMenu.
+1. Install [NickelMenu](https://github.com/pgaskin/NickelMenu), I use it to launch the application.
+2. Insert the device into your PC over USB.
+3. Put kobo-libra2-uhid-module folder in ".adds" folder of device.
+4. Copy "kobo-libra2-uhid-module/config" to ".adds/nm" or you could add the text below to your own config if you already use NickelMenu.
 ```
 menu_item :main    :Bluetooth Patch (toggle) :cmd_output         :500:quiet :rmmod -w /mnt/onboard/.adds/kobo-libra2-uhid-module/uhid.ko
   chain_success:skip:3
