@@ -4,6 +4,8 @@ My Logitech R500 can't work on Kobo Libra 2 so I try to check the problem. Final
 
 # How to use it
 
+For version 4.31.19086
+
 1. Install [NickelMenu](https://github.com/pgaskin/NickelMenu), I use it to launch the application.
 2. Insert the device into your PC over USB.
 3. Put kobo-libra2-uhid-module folder in ".adds" folder of device.
