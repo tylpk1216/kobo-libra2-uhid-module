@@ -2,6 +2,8 @@
 
 My Logitech R500 can't work on Kobo Libra 2 so I try to check the problem. Finally, I rebuild the uhid.ko and it works with R500.
 
+Because Kobo Clare 2E has the same issue of bluetooth, you could use this project concept to support your bluetooth device. I use kobo-libra2-uhid-module to use my Logitech R500 on Kobo Clare 2E.
+
 # How to use it
 
 For version 4.31.19086
