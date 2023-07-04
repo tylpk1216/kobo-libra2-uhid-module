@@ -76,7 +76,7 @@ CONFIG_UHID=m
 ```
 sudo make ARCH=arm CROSS_COMPILE=/mnt/d/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- oldconfig
 ```
-13. Run make command to build the uhid.ko. 
+13. Run make command to build the uhid.ko. If you have error when doing insmod. Please make all kernel first.
 ```
 sudo make ARCH=arm CROSS_COMPILE=/mnt/d/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- drivers/hid/uhid.ko
 ```
